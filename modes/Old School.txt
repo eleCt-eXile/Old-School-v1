@@ -1,0 +1,45 @@
+"Old School"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+
+	"DisplayTitle"	"Old School"
+	"ShortDescription"	"Are you careful enough with ammo to stop the horde?"
+	"Description"	"Lots of zombies. Headshots only. Not enough ammo. How will you make it?"
+
+	"Image"		"maps/any"
+	"Author"	"eleCt_eXile"
+
+	convar
+	{
+		z_minion_limit 0
+		z_hunter_limit 0
+		kick hunter
+		z_boomer_limit 0
+		kick boomer
+		z_jockey_limit 0
+		kick jockey
+		z_spitter_limit 0
+		kick spitter
+		z_charger_limit 0
+		kick charger
+		z_smoker_limit 0
+		kick smoker
+
+		z_speed 50
+		z_common_limit 300
+		z_mega_mob_size 150
+
+		z_must_wander 0
+		z_acquire_far_range 10000
+		z_acquire_far_time 0.1
+		z_acquire_near_range 200
+		z_acquire_near_time 0.1
+
+		z_mob_spawn_min_interval_expert 15
+		z_mob_spawn_max_interval_expert 25
+		z_mob_spawn_min_size 30
+		z_mob_spawn_max_size 50
+	}
+}
+
